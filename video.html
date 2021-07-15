@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photography Site</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        PANDA's_LAB
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html" class = "active">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "video.html">Videos</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "https://i.postimg.cc/mgCddpLB/Screenshot-628.png" alt = "photographer img">
+                    </div>
+                    <h2>I'm Pranjali Satpute</h2>
+                    <h3>Painter | Medico</h3>
+                    <blockquote>
+                        "I Don't paint Dreams or Nightmares, I paint my own reality... It remembers little things, long after you have forgotten everything."
+                        <span>-Frida Kahlo</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://instagram.com/art_justahobby"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-four">
+            <div class = "container">
+                <div class = "blogs">
+                    <div class = "blog-wrapper-sm">
+                        
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <video id="myvid2" width="370" height="740" >
+                                <source src="./images/movies2.mp4" type="video/mp4">
+                              </video>
+                            <div class = "blog-content">
+                                <p class = "blog-text">
+                                    Few pieces from my recent favourite artworks😍❤💫<br>
+                                    Which one did u liked the most ?<br>
+                                </p>
+                                <span class = "badge" id="vidbutton2">Play</span>
+                            </div>
+                        </div>
+                        <script> 
+                            var ppbutton2 = document.getElementById("vidbutton2");
+                            ppbutton2.addEventListener("click", playPause);
+                            myVideo2 = document.getElementById("myvid2");
+                            function playPause() { 
+                                if (myVideo2.paused) {
+                                    myVideo2.play();
+                                    ppbutton2.innerHTML = "Pause";
+                                    }
+                                else  {
+                                    myVideo2.pause(); 
+                                    ppbutton2.innerHTML = "Play";
+                                    }
+                            } 
+                            </script>
+                        <!-- end of single post -->
+
+                        
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <video id="myvid4" width="370" height="740" >
+                                <source src="./images/movies4.mp4" type="video/mp4">
+                              </video>
+                            <div class = "blog-content">
+                                <p class = "blog-text">
+                                    Everything at once 🖤<br>
+                                    short glimpse of my most of the work<br>
+                                </p>
+                                <span class = "badge" id="vidbutton4" >Play</span>
+                            </div>
+                        </div>
+                        <script> 
+                            var ppbutton4 = document.getElementById("vidbutton4");
+                            ppbutton4.addEventListener("click", playPause);
+                            myVideo4 = document.getElementById("myvid4");
+                            function playPause() { 
+                                if (myVideo4.paused) {
+                                    myVideo4.play();
+                                    ppbutton4.innerHTML = "Pause";
+                                    }
+                                else  {
+                                    myVideo4.pause(); 
+                                    ppbutton4.innerHTML = "Play";
+                                    }
+                            } 
+                            </script>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <video id="myvid3" width="370" height="740" >
+                                <source src="./images/movies3.mp4" type="video/mp4">
+                              </video>
+                            <div class = "blog-content">
+                                <p class = "blog-text">
+                                    Paint with me : Part 1<br>
+                                    "Lake side trees"<br>
+                                    First time tried Gouche landscape and totally loving them.
+                                </p>
+                                <span class = "badge" id="vidbutton3">Play</span>
+                            </div>
+                        </div>
+                        <script> 
+                            var ppbutton3 = document.getElementById("vidbutton3");
+                            ppbutton3.addEventListener("click", playPause);
+                            myVideo3 = document.getElementById("myvid3");
+                            function playPause() { 
+                                if (myVideo3.paused) {
+                                    myVideo3.play();
+                                    ppbutton3.innerHTML = "Pause";
+                                    }
+                                else  {
+                                    myVideo3.pause(); 
+                                    ppbutton3.innerHTML = "Play";
+                                    }
+                            } 
+                            </script>
+                        <!-- end of single post -->
+
+                        <!-- single blog post -->
+                        <div class = "blog">
+                            <video id="myvid" width="370" height="740" >
+                                <source src="./images/movies.mp4" type="video/mp4">
+                              </video>
+                            <div class = "blog-content">
+                                <p class = "blog-text">
+                                    Paint with me : Part 2<br>
+                                    Looks like a scene from cartoons😍<br>
+                                    First time tried Gouche landscape and totally loving them.
+                                </p>
+                                <span class = "badge" id="vidbutton">Play</span>
+                            </div>
+                        </div>
+                        <script> 
+                            var ppbutton = document.getElementById("vidbutton");
+                            ppbutton.addEventListener("click", playPause);
+                            myVideo = document.getElementById("myvid");
+                            function playPause() { 
+                                if (myVideo.paused) {
+                                    myVideo.play();
+                                    ppbutton.innerHTML = "Pause";
+                                    }
+                                else  {
+                                    myVideo.pause(); 
+                                    ppbutton.innerHTML = "Play";
+                                    }
+                            } 
+                            </script>
+                        <!-- end of single post -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <p>&copy; Copyright 2021 Art_justahobby</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
